@@ -1,0 +1,2 @@
+previousKeyStateArray = currentKeyStateArray;
+currentKeyStateArray = json_parse(get_key_state_array());
